@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Hacienda Authentic Mexican Restaurant | Springfield, MO</title>
+<meta name="description" content="La Hacienda Authentic Mexican Restaurant at 1370 S Glenstone Ave, Springfield, MO. Tacos, fajitas, enchiladas, margaritas and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#14223A;--ink2:#1D3354;--sun:#F4A71D;--rose:#D63A6B;--leaf:#2E8B57;--chili:#C8372D;--paper:#FBF8F2;--text:#1B1B1F;--muted:#5B5F6A;--card:#fff;--line:#E6E0D3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#10192B;--text:#F3EFE6;--muted:#AEB4C2;--card:#182540;--line:#2A3A5C;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#10192B;--text:#F3EFE6;--muted:#AEB4C2;--card:#182540;--line:#2A3A5C;color-scheme:dark}
+html{scroll-padding-top:calc(70px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--text);font:400 17px/1.6 "DM Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.05;margin:0}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--ink);color:#fff}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;gap:14px}
+.logo{font-family:Fraunces,serif;font-weight:900;font-size:1.2rem;text-decoration:none;color:var(--sun)}
+.links{display:flex;gap:22px;align-items:center}
+.links a{text-decoration:none;font-weight:500;font-size:.95rem}
+.links a:hover{color:var(--sun)}
+.btn{display:inline-block;background:var(--sun);color:#1a1200;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;border:0}
+.btn:hover{background:#ffbd3d}
+.btn.ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55)}
+.btn.ghost:hover{border-color:var(--sun);color:var(--sun)}
+@media(max-width:700px){.links a:not(.btn){display:none}}
+/* hero */
+.hero{background:var(--ink);color:#fff;position:relative;overflow:hidden;padding:0 0 84px}
+.flags{display:flex;justify-content:center;height:78px;margin:0 -10px;filter:drop-shadow(0 2px 0 rgba(0,0,0,.2))}
+.flags i{flex:1;min-width:34px;transform-origin:top center;animation:sway 5s ease-in-out infinite;
+clip-path:polygon(0 0,100% 0,100% 82%,88% 100%,75% 82%,62% 100%,50% 82%,38% 100%,25% 82%,12% 100%,0 82%)}
+.flags i:nth-child(6n+1){background:var(--rose)}.flags i:nth-child(6n+2){background:var(--sun)}.flags i:nth-child(6n+3){background:var(--leaf)}
+.flags i:nth-child(6n+4){background:#3B7DD8}.flags i:nth-child(6n+5){background:var(--chili)}.flags i:nth-child(6n){background:#F3EFE6}
+.flags i:nth-child(odd){animation-delay:-1.6s}.flags i:nth-child(3n){animation-delay:-3.1s}
+@keyframes sway{0%,100%{transform:rotate(-2.5deg)}50%{transform:rotate(2.5deg)}}
+.hero h1{font-weight:900;font-size:clamp(3rem,9.5vw,6.6rem);margin-top:56px;letter-spacing:-.02em}
+.hero h1 span{display:block;font-size:.42em;font-weight:700;color:var(--sun);letter-spacing:0;margin-top:14px}
+.hero p{max-width:34em;font-size:1.2rem;color:#D9DEEA;margin:22px 0 32px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hero .badges{margin-top:38px;display:flex;gap:10px;flex-wrap:wrap;font-size:.9rem;color:#D9DEEA}
+.badges b{font-weight:500;border:1px solid rgba(255,255,255,.28);padding:6px 14px;border-radius:999px}
+/* sections */
+section{padding:84px 0}
+h2{font-weight:900;font-size:clamp(2rem,5vw,3.2rem);margin-bottom:12px}
+.lead{color:var(--muted);max-width:36em;margin:0 0 40px}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.cat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px 26px 14px;border-top:6px solid var(--rose)}
+.cat:nth-child(2){border-top-color:var(--sun)}.cat:nth-child(3){border-top-color:var(--leaf)}.cat:nth-child(4){border-top-color:#3B7DD8}.cat:nth-child(5){border-top-color:var(--chili)}.cat:nth-child(6){border-top-color:var(--rose)}
+.cat h3{font-size:1.5rem;margin-bottom:14px}
+.cat dl{margin:0}.cat dt{font-weight:700}.cat dd{margin:0 0 14px;color:var(--muted);font-size:.95rem}
+.note{margin-top:26px;color:var(--muted);font-size:.95rem}
+/* about */
+.about{background:var(--ink2);color:#fff}
+.about .grid{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.about p{color:#D9DEEA;max-width:34em}
+.pull{border-left:6px solid var(--sun);padding:6px 0 6px 24px;font-family:Fraunces,serif;font-weight:700;font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1.2}
+@media(max-width:760px){.about .grid{grid-template-columns:1fr;gap:28px}}
+/* visit */
+.visit{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px}
+.box h3{font-size:1.4rem;margin-bottom:12px}
+.hours{width:100%;border-collapse:collapse}.hours td{padding:7px 0;border-bottom:1px dashed var(--line)}.hours td:last-child{text-align:right;font-weight:500}
+.box .btn{margin-top:18px;background:var(--ink);color:#fff}
+.box .btn:hover{background:var(--chili)}
+footer{background:var(--ink);color:#D9DEEA;padding:36px 0 90px;font-size:.92rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.callbar{display:none}
+@media(max-width:700px){.callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:30;gap:1px;padding-bottom:env(safe-area-inset-bottom,0px);background:var(--ink)}
+.callbar a{flex:1;text-align:center;padding:15px 8px;font-weight:700;text-decoration:none;color:#fff}
+.callbar a:first-child{background:var(--sun);color:#1a1200}}
+@media(prefers-reduced-motion:reduce){.flags i{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a class="logo" href="#top">La Hacienda</a>
+<div class="links"><a href="#menu">Menu</a><a href="#about">Our story</a><a href="#visit">Hours &amp; location</a><a class="btn" href="tel:+14178873733">Call to order</a></div>
+</div></nav>
+
+<header class="hero" id="top">
+<div class="flags" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="wrap">
+<h1>La Hacienda<span>Authentic Mexican Restaurant in Springfield</span></h1>
+<p>Sizzling fajitas, slow-simmered sauces, fresh salsa and ice-cold margaritas. Come hungry, bring the whole table.</p>
+<div class="cta"><a class="btn" href="tel:+14178873733">Call to order</a><a class="btn ghost" href="https://www.google.com/maps/dir/?api=1&destination=1370+S+Glenstone+Ave+Springfield+MO+65804" target="_blank" rel="noopener">Get directions</a></div>
+<div class="badges"><b>Dine in</b><b>Takeout</b><b>Margaritas</b><b>Family friendly</b><b>Large groups welcome</b></div>
+</div>
+</header>
+
+<section id="menu"><div class="wrap">
+<h2>What we’re cooking</h2>
+<p class="lead">A look at the favorites our guests come back for. Ask your server about daily specials.</p>
+<div class="menu">
+<div class="cat"><h3>Start with</h3><dl>
+<dt>Chips &amp; salsa</dt><dd>Warm chips with our house salsa.</dd>
+<dt>Queso dip</dt><dd>Melted cheese dip, creamy and a little spicy.</dd>
+<dt>Guacamole</dt><dd>Mashed fresh with tomato, onion and lime.</dd></dl></div>
+<div class="cat"><h3>Tacos</h3><dl>
+<dt>Carne asada</dt><dd>Grilled steak, onion, cilantro, fresh tortillas.</dd>
+<dt>Al pastor</dt><dd>Marinated pork with pineapple.</dd>
+<dt>Carnitas</dt><dd>Slow-cooked pork, crisp at the edges.</dd></dl></div>
+<div class="cat"><h3>Fajitas</h3><dl>
+<dt>Steak, chicken or shrimp</dt><dd>Served sizzling with peppers and onions.</dd>
+<dt>Fajitas mixtas</dt><dd>A mix of meats for sharing.</dd>
+<dt>Rice, beans &amp; tortillas</dt><dd>On the side, always.</dd></dl></div>
+<div class="cat"><h3>Classics</h3><dl>
+<dt>Enchiladas</dt><dd>Red, green or cheese sauce, baked until bubbly.</dd>
+<dt>Burritos</dt><dd>Big and stuffed, smothered or plain.</dd>
+<dt>Chile relleno</dt><dd>Poblano pepper filled with cheese.</dd></dl></div>
+<div class="cat"><h3>Lunch specials</h3><dl>
+<dt>Combo plates</dt><dd>Pick your favorites with rice and beans.</dd>
+<dt>Quick and filling</dt><dd>Ask about weekday lunch pricing.</dd></dl></div>
+<div class="cat"><h3>Drinks &amp; dessert</h3><dl>
+<dt>Margaritas</dt><dd>On the rocks or frozen, in a few flavors.</dd>
+<dt>Mexican sodas &amp; horchata</dt><dd>Sweet and cold.</dd>
+<dt>Churros &amp; flan</dt><dd>Finish on something sweet.</dd></dl></div>
+</div>
+<p class="note">Call us for current prices, specials and catering for parties and events.</p>
+</div></section>
+
+<section class="about" id="about"><div class="wrap grid">
+<div><h2>Cooked like home</h2>
+<p>La Hacienda has served Springfield’s south side on Glenstone Avenue with traditional Mexican recipes made from scratch. Sauces simmer all day, tortillas are warm, and every plate comes out the way a family would serve it at their own table.</p>
+<p>Stop in after work, bring the kids on the weekend, or book a big table for a birthday. You will leave full.</p></div>
+<div class="pull">Good food, warm welcome, plenty of salsa.</div>
+</div></section>
+
+<section id="visit"><div class="wrap">
+<h2>Come hungry</h2>
+<p class="lead">Find us on Glenstone Avenue in south Springfield.</p>
+<div class="visit">
+<div class="box"><h3>Address</h3>
+<p>1370 S Glenstone Ave<br>Springfield, MO 65804</p>
+<a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=1370+S+Glenstone+Ave+Springfield+MO+65804" target="_blank" rel="noopener">Open in Maps</a></div>
+<div class="box"><h3>Hours</h3>
+<table class="hours">
+<tr><td>Monday – Thursday</td><td>11 am – 9 pm</td></tr>
+<tr><td>Friday – Saturday</td><td>11 am – 10 pm</td></tr>
+<tr><td>Sunday</td><td>11 am – 9 pm</td></tr></table></div>
+<div class="box"><h3>Order &amp; reservations</h3>
+<p>Call for takeout, large parties and catering.</p>
+<p><strong>(417) 887-3733</strong></p>
+<a class="btn" href="tel:+14178873733">Call now</a></div>
+</div></div></section>
+
+<footer><div class="wrap"><span>© 2026 La Hacienda Authentic Mexican Restaurant</span><span>1370 S Glenstone Ave, Springfield, MO 65804</span></div></footer>
+
+<div class="callbar"><a href="tel:+14178873733">Call to order</a><a href="https://www.google.com/maps/dir/?api=1&destination=1370+S+Glenstone+Ave+Springfield+MO+65804" target="_blank" rel="noopener">Directions</a></div>
+</body>
+</html>
